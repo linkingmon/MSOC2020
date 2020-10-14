@@ -1,4 +1,5 @@
 Workbook-Lab1.odt
 *.log
-hls_Multiplication_impl/
-vvd_Multip2Num_impl/
+hls_Multiplication/solution1/*
+hls_Multiplication/vivado_hls.app
+vvd_Multip2Num/

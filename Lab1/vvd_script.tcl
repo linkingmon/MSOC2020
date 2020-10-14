@@ -1,7 +1,7 @@
 # Specify vivado project filename
 set FOLDER Lab1
-set FILENAME vvd_Multip2Num_impl
-set DesignName hls_Multiplication_impl
+set FILENAME vvd_Multip2Num
+set DesignName hls_Multiplication
 
 # Create project
 create_project $FILENAME C:/Users/USER/Desktop/MSOC2020/$FOLDER/$FILENAME -part xc7z020clg484-1
@@ -28,10 +28,10 @@ apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Cl
 regenerate_bd_layout
 
 # Wrap
-make_wrapper -files [get_files C:/Users/USER/Desktop/MSOC2020/Lab1/vvd_Multip2Num_impl/vvd_Multip2Num_impl.srcs/sources_1/bd/design_1/design_1.bd] -top
+make_wrapper -files [get_files C:/Users/USER/Desktop/MSOC2020/$FOLDER/$FILENAME/$FILENAME.srcs/sources_1/bd/design_1/design_1.bd] -top
 
 # Implement
-add_files -norecurse C:/Users/USER/Desktop/MSOC2020/Lab1/vvd_Multip2Num_impl/vvd_Multip2Num_impl.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+add_files -norecurse C:/Users/USER/Desktop/MSOC2020/$FOLDER/$FILENAME/$FILENAME.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
 launch_runs impl_1 -to_step write_bitstream -jobs 4
 open_run impl_1
 
