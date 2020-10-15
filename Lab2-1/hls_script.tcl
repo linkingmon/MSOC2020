@@ -15,6 +15,6 @@ config_export -format ip_catalog -rtl verilog
 source "./hls_FIRN11MAXI/solution1/directives.tcl"
 csim_design
 csynth_design
-cosim_design
+cosim_design -trace_level all -tool xsim
 export_design -rtl verilog -format ip_catalog
 quit

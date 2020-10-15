@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog>
+        <logs message="ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/USER/Desktop/MSOC2020/Lab2-1/hls_FIRN11MAXI/solution1/cosim.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/USER/Desktop/MSOC2020/Lab2-1/hls_FIRN11MAXI/solution1/cosim.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:27:15.688+0800"/>
+        <logs message="ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***" projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:27:15.175+0800"/>
+        <logs message="ERROR: [COSIM 212-366] Cannot delete directory  'sim/verilog': it is being used by another program. Please close the program and try again.&#xD;&#xA;error deleting &quot;sim/verilog&quot;: permission denied" projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:27:15.157+0800"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_0' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:37.011+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_1' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.827+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_2' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.793+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_3' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.772+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_4' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.749+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_5' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.700+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_6' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.676+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_7' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.628+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_8' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.591+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'an32ShiftReg_9' is power-on initialization." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:36.547+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('an32Coef_load_8', hls_FIRN11MAXI/FIR.cpp:28) on array 'an32Coef' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'an32Coef'." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:35.370+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'SHIFT_ACC_LOOP' (hls_FIRN11MAXI/FIR.cpp:20) because its parent loop or function is pipelined." projectName="hls_FIRN11MAXI" solutionName="solution1" date="2020-10-15T16:26:34.365+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

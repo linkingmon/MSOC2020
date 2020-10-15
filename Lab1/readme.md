@@ -78,9 +78,9 @@ The utilization estimation is shown below:
 11        print(str(i + 1) + " * " + str(j + 1) + " = " + str(Res))
 ```
 * Line 3: Build Overlay class and burn the bitstream file into the Board.
-* Line 8: write value "i+1" to addr. 10 (In1 for AXILiteS)
-* Line 9: write value "j+1" to addr. 18 (In2 for AXILiteS)
-* Line 10: read data from addr. 20 (Out for AXILiteS)
+* Line 8: write value "i+1" to addr. BS+0x10 (In1 for AXILiteS)
+* Line 9: write value "j+1" to addr. BS+0x18 (In2 for AXILiteS)
+* Line 10: read data from addr. BS+0x20 (Out for AXILiteS)
 
 ## Bugs encountered
 * Remember to specify the board type when create the project

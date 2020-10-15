@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="FIR.h" path="C:\Users\USER\Desktop\MSOC2020\Lab2-1\hls_FIRN11MAXI\FIR.h"/>
+    <originFiles name="FIR.cpp" path="C:\Users\USER\Desktop\MSOC2020\Lab2-1\hls_FIRN11MAXI\FIR.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="FIRTester.cpp" path="C:\Users\USER\Desktop\MSOC2020\Lab2-1\hls_FIRN11MAXI\FIRTester.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

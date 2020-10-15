@@ -1,0 +1,5 @@
+*.log
+hls_FIRN11Stream/solution1/*
+!hls_FIRN11Stream/solution1/directives.tcl
+hls_FIRN11Stream/vivado_hls.app
+vvd_FIRN11Stream/
