@@ -1,0 +1,6 @@
+Workbook-Lab2.odt
+*.log
+hls_FIRN11MAXI/solution1/*
+!hls_FIRN11MAXI/solution1/directives.tcl
+hls_FIRN11MAXI/vivado_hls.app
+vvd_FIRN11MAXI/
