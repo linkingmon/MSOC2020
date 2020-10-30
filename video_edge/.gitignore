@@ -1,0 +1,5 @@
+*.log
+hls_video_edge*/
+vvd_video_edge*/
+*.log
+descript.txt
