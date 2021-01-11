@@ -1,18 +1,19 @@
 # MSOC2020
 
-## Overview
-|    Project name    |                 Content                  |          Related Topics           |
-|:------------------:|:----------------------------------------:|:---------------------------------:|
-|        Lab1        |      Vivado-HLS & Vivado work flow       |   Vivado-HLS, PYNQ, Multiplier    |
-|  Lab2-1 & Lab2-2   |  AXI-Master, AXI-Stream interface, FIR   |           AXI-M, AXI-S            |
-|     Video_edge     | Video Edge detection, OpenCV-HLS library | OpenCV-hls, PYNQ, video-streaming |
-|        Lab3        |            XRT, HW emulation             |               Vitis               |
-| H264 Video Decoder |          NALU-to-YUV converting          |               Vitis               |
-|        CNN         |            Digit Recognition             |  Vivado-HLS, Dataflow, streaming  |
-|    CORDIC_SQRT     |            CORDIC for L2-norm            |      PYNQ, Vivado-HLS, AXIS       |
-|      FP_ACCUM      |        Adder-tree, floating-point        |            PYNQ, AXI_M            |
-|        RSE         |           Reed Solomon erasure           |    PYNQ, AXILite, Pipeline, II    |
 
+## Overview
+|    Project name    |                 Content                  |          Related Topics           | Slides | Report |
+|:------------------:|:----------------------------------------:|:---------------------------------:|:------:|:------:|
+|        Lab1        |      Vivado-HLS & Vivado work flow       |   Vivado-HLS, PYNQ, Multiplier    |   V    |   V    |
+|  Lab2-1 & Lab2-2   |  AXI-Master, AXI-Stream interface, FIR   |           AXI-M, AXI-S            |   *    |   V    |
+|     Video_edge     | Video Edge detection, OpenCV-HLS library | OpenCV-hls, PYNQ, video-streaming |   V    |   V    |
+|        Lab3        |            XRT, HW emulation             |               Vitis               |        |   V    |
+| H264 Video Decoder |          NALU-to-YUV converting          |               Vitis               |   V    |        |
+|        CNN         |            Digit Recognition             |  Vivado-HLS, Dataflow, streaming  |   V    |        |
+|    CORDIC_SQRT     |            CORDIC for L2-norm            |      PYNQ, Vivado-HLS, AXIS       |        |   V    |
+|      FP_ACCUM      |        Adder-tree, floating-point        |            PYNQ, AXI_M            |        |   V    |
+|        RSE         |           Reed Solomon erasure           |    PYNQ, AXILite, Pipeline, II    |        |   V    |
+\* Slides of Lab2 is in Lab1/
 ## Operating instructions
 1. Run HLS solution on Vivado_hls prompt:
 ```
