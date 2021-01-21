@@ -13,6 +13,7 @@
 |    CORDIC_SQRT     |            CORDIC for L2-norm            |      PYNQ, Vivado-HLS, AXIS       |        |   V    |
 |      FP_ACCUM      |        Adder-tree, floating-point        |            PYNQ, AXI_M            |        |   V    |
 |        RSE         |           Reed Solomon erasure           |    PYNQ, AXILite, Pipeline, II    |        |   V    |
+|      ReconNet      |Compressive sensing, deep neural network  |    PYNQ, AXIS, Pipeline, Dataflow |   V    |        |
 \* Slides of Lab2 is in Lab1/
 ## Operating instructions
 1. Run HLS solution on Vivado_hls prompt:
